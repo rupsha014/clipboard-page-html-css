@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    font-size: 18px;
+}
+.clipboard-page{
+    max-width: 1108px;
+    background-color: white;
+}
+.title{
+    padding-left: 250px;
+    background:url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+.title img{
+    margin-bottom: 40px;
+    margin-left: 190px;
+    margin-top: 90px;
+}
+.title h1{
+    margin-left: 18px;
+    
+}
+.gap1{
+    margin-bottom: 3px;
+    margin-top: 12px;
+    margin-left: 2px;
+
+}
+.gap2{
+    margin-left: 113px;
+}
+.title p{
+    color: gray;
+}
+.click{
+    margin-left: 95px;
+}
+.title button{
+    margin-left: 10px;
+    margin-top: 13px;
+    height: 35px;
+    width: 150px;
+    border-radius: 18px 18px;
+    cursor: pointer ;
+    
+}
+.green{
+    background-color: hsl(171,  66%, 44%);
+    color: white;
+    border: 0;
+    box-shadow: 1px 2px 3px 0 hsl(171,  66%, 44%);
+}
+.blue{
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    border: 0;
+    box-shadow: 1px 2px 3px 0 hsl(233,  100%, 69%);
+
+}
+.text{
+    padding-left: 250px;
+}
+.text h2{
+    margin-left: 100px;
+    margin-top: 110px;
+    margin-bottom: 13px;
+    
+}
+.text p{
+    margin-bottom: 3px;
+    color: gray;
+}
+.gap3{
+    margin-left: 200px;
+    padding-bottom: 60px;
+}
+.side{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.side img{
+    width: 90%;
+}
+.points{
+    margin-left: 30px;
+}
+.p{
+    margin-top: 45px;
+}
+
+.points h3{
+    margin-bottom: 8px;
+
+}
+.p1{
+    margin-bottom: 40px;
+}
+.points p{
+    color: gray;
+}
+.points2{
+    margin-left: 250px;
+}
+.points2 h2{
+    margin-bottom: 15px;
+    margin-left: 120px;
+    margin-top: 120px;
+    
+}
+.points2 p{
+    margin-bottom: 5px;
+    color: gray;
+}
+.p2{
+    margin-left: 170px;
+}
+.pic{
+    margin: 70px 100px 60px 100px;
+}
+.points3{
+    margin-left: 370px;
+
+}
+.points3 h2{
+    margin-bottom: 20px;
+    margin-left: 5px;
+    
+}
+.points3 p{
+    color: gray;
+}
+.icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:  60px 30px 60px 60px;
+    padding: 30px 10px 30px 20px;
+}
+.icons p{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: gray;
+}
+.icons img{
+    margin-left: 100px;
+}
+.icons h3{
+    margin-left: 50px;
+}
+.txt{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.r{
+    margin-left: 100px;
+}
+.u{
+    margin-left: 50px;
+}
+.s{
+    margin-left: 90px;
+}
+.logo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 70px;
+    margin-bottom: 120px;
+    margin-top: 80px;
+}
+.points4{
+    margin-left: 250px;
+}
+.points4 h2{
+    margin-left: 120px;
+    margin-bottom: 15px;
+}
+.points4 p{
+    color: gray;
+}
+.h{
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+.points4 button{
+    margin-left: 10px;
+    margin-top: 13px;
+    height: 35px;
+    width: 150px;
+    border-radius: 18px 18px;
+    color: white;
+    cursor: pointer;
+}
+.click2{
+    margin-left: 150px;
+    margin-top: 40px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 80px;
+    background-color:  hsl(197, 12%, 88%);
+    
+}
+.details{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 85px; 
+}
+.i{
+    text-decoration: none;
+    color: gray;
+    transition: all linear;
+}
+.i :hover{
+    color: hsl(171,  66%, 44%) ;
+}
+.b{
+    margin-right: 6px;
+    margin-bottom: 5px;
+
+}
+
+.c{
+    margin-left: 15px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all linear;
+}
+.nav:hover{
+    color:  hsl(171,  66%, 44%);
+}
+.m{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logos{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+    
+
